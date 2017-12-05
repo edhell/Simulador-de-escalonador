@@ -6,22 +6,23 @@ Projeto feito em VB.net com Visual Studio 2017
 Tabalho de Sistemas Operacioais - UNISC
 Eduardo Dumke -www.edinfo.com.br - 2017
 
-Andamento do projeto:
-Teste de algoritmos de escalonamento de CPU
-[x] 5 "filas" de entradas
-[x] Filas podem ser adicionadas via arquivo externo
-[x] Gerar fila aleatóriamente
-[x] Teste de conteúdo de fila
-[x] Cálculo de tempo decorrido
-[x] Algoritmo FIFO:
-	[x] Até 64 Threads
-	[x] Custo de troca de contexto
-	[x] Tempo médio de espera (waiting time)
-	[x] Tempo médio de CPU (turnround time)
-	[x] Tempo de CPU livre (em u.t.)
-	[x] Aproveitamento de CPU (em %)
-[ ] Algoritmo SJF / SRT
-[ ] SJF/ SRT Preemptivo
-[ ] Prioridade
-[ ] RR
-[ ] Loteria
+# Andamento do projeto: <br>
+(OK) 5 "filas" de entradas<br>
+(OK) Filas podem ser adicionadas via arquivo externo<br>
+(OK) Gerar fila aleatóriamente<br>
+(OK) Teste de conteúdo de fila<br>
+(OK) Cálculo de tempo decorrido<br>
+(OK) Até 64 Threads<br>
+(OK) Custo de troca de contexto<br>
+(OK) Tempo médio de espera (waiting time)<br>
+(OK) Tempo médio de CPU (turnround time)<br>
+(OK) Tempo de CPU livre (em u.t.)<br>
+(OK) Aproveitamento de CPU (em %)<br>
+
+# Algoritmos: <br>
+(OK) Algoritmo FIFO:<br>
+(  )  Algoritmo SJF / SRT<br>
+(  ) SJF/ SRT Preemptivo<br>
+(  ) Prioridade<br>
+(  ) RR<br>
+(  ) Loteria<br>
