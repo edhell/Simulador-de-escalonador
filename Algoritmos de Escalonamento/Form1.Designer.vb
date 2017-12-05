@@ -63,30 +63,30 @@ Partial Class Form1
         Me.Button23 = New System.Windows.Forms.Button()
         Me.RichTextBox3 = New System.Windows.Forms.RichTextBox()
         Me.TabPage7 = New System.Windows.Forms.TabPage()
-        Me.TabPage8 = New System.Windows.Forms.TabPage()
-        Me.TabPage9 = New System.Windows.Forms.TabPage()
-        Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
-        Me.TabControl1 = New System.Windows.Forms.TabControl()
-        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
-        Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
-        Me.ToolStripProgressBar1 = New System.Windows.Forms.ToolStripProgressBar()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button10 = New System.Windows.Forms.Button()
         Me.RichTextBox4 = New System.Windows.Forms.RichTextBox()
+        Me.TabPage8 = New System.Windows.Forms.TabPage()
         Me.Button11 = New System.Windows.Forms.Button()
         Me.Button12 = New System.Windows.Forms.Button()
         Me.Button13 = New System.Windows.Forms.Button()
         Me.Button14 = New System.Windows.Forms.Button()
         Me.RichTextBox5 = New System.Windows.Forms.RichTextBox()
+        Me.TabPage9 = New System.Windows.Forms.TabPage()
         Me.Button15 = New System.Windows.Forms.Button()
         Me.Button25 = New System.Windows.Forms.Button()
         Me.Button26 = New System.Windows.Forms.Button()
         Me.Button27 = New System.Windows.Forms.Button()
         Me.RichTextBox6 = New System.Windows.Forms.RichTextBox()
+        Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage10 = New System.Windows.Forms.TabPage()
+        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
+        Me.ToolStripProgressBar1 = New System.Windows.Forms.ToolStripProgressBar()
+        Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.TabPage4.SuspendLayout()
         Me.GroupBox10.SuspendLayout()
         Me.GroupBox9.SuspendLayout()
@@ -124,25 +124,28 @@ Partial Class Form1
         Me.TabPage4.Location = New System.Drawing.Point(4, 25)
         Me.TabPage4.Name = "TabPage4"
         Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage4.Size = New System.Drawing.Size(363, 377)
+        Me.TabPage4.Size = New System.Drawing.Size(442, 490)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "Resultado"
         Me.TabPage4.UseVisualStyleBackColor = True
         '
         'GroupBox10
         '
+        Me.GroupBox10.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GroupBox10.Controls.Add(Me.Button24)
-        Me.GroupBox10.Location = New System.Drawing.Point(6, 316)
+        Me.GroupBox10.Location = New System.Drawing.Point(6, 355)
         Me.GroupBox10.Name = "GroupBox10"
-        Me.GroupBox10.Size = New System.Drawing.Size(261, 51)
+        Me.GroupBox10.Size = New System.Drawing.Size(430, 51)
         Me.GroupBox10.TabIndex = 8
         Me.GroupBox10.TabStop = False
         Me.GroupBox10.Text = "Tempo gasto com troca de contexto"
         '
         'Button24
         '
+        Me.Button24.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button24.Font = New System.Drawing.Font("Myriad Pro Light", 9.749999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button24.Location = New System.Drawing.Point(238, 22)
+        Me.Button24.Location = New System.Drawing.Point(407, 22)
         Me.Button24.Name = "Button24"
         Me.Button24.Size = New System.Drawing.Size(17, 23)
         Me.Button24.TabIndex = 7
@@ -151,18 +154,21 @@ Partial Class Form1
         '
         'GroupBox9
         '
+        Me.GroupBox9.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GroupBox9.Controls.Add(Me.Button20)
-        Me.GroupBox9.Location = New System.Drawing.Point(6, 259)
+        Me.GroupBox9.Location = New System.Drawing.Point(6, 298)
         Me.GroupBox9.Name = "GroupBox9"
-        Me.GroupBox9.Size = New System.Drawing.Size(261, 51)
+        Me.GroupBox9.Size = New System.Drawing.Size(430, 51)
         Me.GroupBox9.TabIndex = 3
         Me.GroupBox9.TabStop = False
         Me.GroupBox9.Text = "Tempo médio de resposta (TurnroundTime)"
         '
         'Button20
         '
+        Me.Button20.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button20.Font = New System.Drawing.Font("Myriad Pro Light", 9.749999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button20.Location = New System.Drawing.Point(238, 22)
+        Me.Button20.Location = New System.Drawing.Point(407, 22)
         Me.Button20.Name = "Button20"
         Me.Button20.Size = New System.Drawing.Size(17, 23)
         Me.Button20.TabIndex = 7
@@ -171,18 +177,21 @@ Partial Class Form1
         '
         'GroupBox8
         '
+        Me.GroupBox8.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GroupBox8.Controls.Add(Me.Button19)
-        Me.GroupBox8.Location = New System.Drawing.Point(6, 202)
+        Me.GroupBox8.Location = New System.Drawing.Point(6, 241)
         Me.GroupBox8.Name = "GroupBox8"
-        Me.GroupBox8.Size = New System.Drawing.Size(261, 51)
+        Me.GroupBox8.Size = New System.Drawing.Size(430, 51)
         Me.GroupBox8.TabIndex = 2
         Me.GroupBox8.TabStop = False
         Me.GroupBox8.Text = "Tempo médio de espera"
         '
         'Button19
         '
+        Me.Button19.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button19.Font = New System.Drawing.Font("Myriad Pro Light", 9.749999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button19.Location = New System.Drawing.Point(238, 22)
+        Me.Button19.Location = New System.Drawing.Point(407, 22)
         Me.Button19.Name = "Button19"
         Me.Button19.Size = New System.Drawing.Size(17, 23)
         Me.Button19.TabIndex = 7
@@ -191,18 +200,21 @@ Partial Class Form1
         '
         'GroupBox6
         '
+        Me.GroupBox6.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GroupBox6.Controls.Add(Me.Button18)
-        Me.GroupBox6.Location = New System.Drawing.Point(6, 104)
+        Me.GroupBox6.Location = New System.Drawing.Point(6, 143)
         Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(261, 92)
+        Me.GroupBox6.Size = New System.Drawing.Size(430, 92)
         Me.GroupBox6.TabIndex = 1
         Me.GroupBox6.TabStop = False
         Me.GroupBox6.Text = "Tempo total de execução"
         '
         'Button18
         '
+        Me.Button18.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button18.Font = New System.Drawing.Font("Myriad Pro Light", 9.749999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button18.Location = New System.Drawing.Point(238, 63)
+        Me.Button18.Location = New System.Drawing.Point(407, 63)
         Me.Button18.Name = "Button18"
         Me.Button18.Size = New System.Drawing.Size(17, 23)
         Me.Button18.TabIndex = 7
@@ -211,18 +223,21 @@ Partial Class Form1
         '
         'GroupBox5
         '
+        Me.GroupBox5.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GroupBox5.Controls.Add(Me.Button17)
         Me.GroupBox5.Location = New System.Drawing.Point(6, 6)
         Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(261, 92)
+        Me.GroupBox5.Size = New System.Drawing.Size(430, 131)
         Me.GroupBox5.TabIndex = 0
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "Total de processos"
         '
         'Button17
         '
+        Me.Button17.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button17.Font = New System.Drawing.Font("Myriad Pro Light", 9.749999!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button17.Location = New System.Drawing.Point(238, 63)
+        Me.Button17.Location = New System.Drawing.Point(407, 102)
         Me.Button17.Name = "Button17"
         Me.Button17.Size = New System.Drawing.Size(17, 23)
         Me.Button17.TabIndex = 7
@@ -241,7 +256,7 @@ Partial Class Form1
         Me.TabPage3.Location = New System.Drawing.Point(4, 25)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage3.Size = New System.Drawing.Size(363, 377)
+        Me.TabPage3.Size = New System.Drawing.Size(442, 490)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "Opções"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -253,15 +268,16 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.RichTextBox7.Location = New System.Drawing.Point(6, 267)
         Me.RichTextBox7.Name = "RichTextBox7"
-        Me.RichTextBox7.Size = New System.Drawing.Size(351, 104)
+        Me.RichTextBox7.ReadOnly = True
+        Me.RichTextBox7.Size = New System.Drawing.Size(430, 217)
         Me.RichTextBox7.TabIndex = 7
-        Me.RichTextBox7.Text = ""
+        Me.RichTextBox7.Text = "Informações..."
         '
         'Button21
         '
         Me.Button21.Location = New System.Drawing.Point(6, 180)
         Me.Button21.Name = "Button21"
-        Me.Button21.Size = New System.Drawing.Size(351, 81)
+        Me.Button21.Size = New System.Drawing.Size(288, 81)
         Me.Button21.TabIndex = 6
         Me.Button21.Text = "Executar"
         Me.Button21.UseVisualStyleBackColor = True
@@ -310,7 +326,7 @@ Partial Class Form1
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"FIFO", "SJF/SRT", "SJF/SRT Preemptivo", "Prioridade", "Prioridade Preemptivo", "RR", "RR Preemptivo", "Loteria", "Multiplas Filas"})
+        Me.ComboBox1.Items.AddRange(New Object() {"FIFO", "SJF/SRT", "SJF/SRT Preemptivo", "Prioridade", "RR", "Loteria"})
         Me.ComboBox1.Location = New System.Drawing.Point(6, 22)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(252, 24)
@@ -329,6 +345,7 @@ Partial Class Form1
         '
         'NumericUpDown3
         '
+        Me.NumericUpDown3.Enabled = False
         Me.NumericUpDown3.Location = New System.Drawing.Point(6, 22)
         Me.NumericUpDown3.Maximum = New Decimal(New Integer() {64, 0, 0, 0})
         Me.NumericUpDown3.Minimum = New Decimal(New Integer() {2, 0, 0, 0})
@@ -381,7 +398,7 @@ Partial Class Form1
         Me.TabPage2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.TabPage2.Size = New System.Drawing.Size(363, 377)
+        Me.TabPage2.Size = New System.Drawing.Size(442, 490)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Entradas"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -399,7 +416,7 @@ Partial Class Form1
         Me.TabControl2.Location = New System.Drawing.Point(6, 7)
         Me.TabControl2.Name = "TabControl2"
         Me.TabControl2.SelectedIndex = 0
-        Me.TabControl2.Size = New System.Drawing.Size(351, 363)
+        Me.TabControl2.Size = New System.Drawing.Size(430, 476)
         Me.TabControl2.TabIndex = 0
         '
         'TabPage5
@@ -412,7 +429,7 @@ Partial Class Form1
         Me.TabPage5.Location = New System.Drawing.Point(4, 25)
         Me.TabPage5.Name = "TabPage5"
         Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage5.Size = New System.Drawing.Size(343, 334)
+        Me.TabPage5.Size = New System.Drawing.Size(422, 447)
         Me.TabPage5.TabIndex = 0
         Me.TabPage5.Text = "Fila 1"
         Me.TabPage5.UseVisualStyleBackColor = True
@@ -460,7 +477,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.RichTextBox2.Location = New System.Drawing.Point(87, 6)
         Me.RichTextBox2.Name = "RichTextBox2"
-        Me.RichTextBox2.Size = New System.Drawing.Size(250, 322)
+        Me.RichTextBox2.Size = New System.Drawing.Size(329, 459)
         Me.RichTextBox2.TabIndex = 0
         Me.RichTextBox2.Text = ""
         '
@@ -474,7 +491,7 @@ Partial Class Form1
         Me.TabPage6.Location = New System.Drawing.Point(4, 25)
         Me.TabPage6.Name = "TabPage6"
         Me.TabPage6.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage6.Size = New System.Drawing.Size(343, 334)
+        Me.TabPage6.Size = New System.Drawing.Size(422, 447)
         Me.TabPage6.TabIndex = 1
         Me.TabPage6.Text = "Fila 2"
         Me.TabPage6.UseVisualStyleBackColor = True
@@ -522,7 +539,7 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.RichTextBox3.Location = New System.Drawing.Point(87, 6)
         Me.RichTextBox3.Name = "RichTextBox3"
-        Me.RichTextBox3.Size = New System.Drawing.Size(250, 322)
+        Me.RichTextBox3.Size = New System.Drawing.Size(329, 459)
         Me.RichTextBox3.TabIndex = 5
         Me.RichTextBox3.Text = ""
         '
@@ -536,97 +553,10 @@ Partial Class Form1
         Me.TabPage7.Location = New System.Drawing.Point(4, 25)
         Me.TabPage7.Name = "TabPage7"
         Me.TabPage7.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage7.Size = New System.Drawing.Size(343, 334)
+        Me.TabPage7.Size = New System.Drawing.Size(422, 447)
         Me.TabPage7.TabIndex = 2
         Me.TabPage7.Text = "Fila 3"
         Me.TabPage7.UseVisualStyleBackColor = True
-        '
-        'TabPage8
-        '
-        Me.TabPage8.Controls.Add(Me.Button11)
-        Me.TabPage8.Controls.Add(Me.Button12)
-        Me.TabPage8.Controls.Add(Me.Button13)
-        Me.TabPage8.Controls.Add(Me.Button14)
-        Me.TabPage8.Controls.Add(Me.RichTextBox5)
-        Me.TabPage8.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage8.Name = "TabPage8"
-        Me.TabPage8.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage8.Size = New System.Drawing.Size(343, 334)
-        Me.TabPage8.TabIndex = 3
-        Me.TabPage8.Text = "Fila 4"
-        Me.TabPage8.UseVisualStyleBackColor = True
-        '
-        'TabPage9
-        '
-        Me.TabPage9.Controls.Add(Me.Button15)
-        Me.TabPage9.Controls.Add(Me.Button25)
-        Me.TabPage9.Controls.Add(Me.Button26)
-        Me.TabPage9.Controls.Add(Me.Button27)
-        Me.TabPage9.Controls.Add(Me.RichTextBox6)
-        Me.TabPage9.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage9.Name = "TabPage9"
-        Me.TabPage9.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage9.Size = New System.Drawing.Size(343, 334)
-        Me.TabPage9.TabIndex = 4
-        Me.TabPage9.Text = "Fila 5"
-        Me.TabPage9.UseVisualStyleBackColor = True
-        '
-        'TabPage1
-        '
-        Me.TabPage1.Controls.Add(Me.RichTextBox1)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.TabPage1.Size = New System.Drawing.Size(363, 377)
-        Me.TabPage1.TabIndex = 0
-        Me.TabPage1.Text = "Sobre"
-        Me.TabPage1.UseVisualStyleBackColor = True
-        '
-        'RichTextBox1
-        '
-        Me.RichTextBox1.Location = New System.Drawing.Point(6, 7)
-        Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(351, 276)
-        Me.RichTextBox1.TabIndex = 0
-        Me.RichTextBox1.Text = ""
-        '
-        'TabControl1
-        '
-        Me.TabControl1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TabControl1.Controls.Add(Me.TabPage1)
-        Me.TabControl1.Controls.Add(Me.TabPage2)
-        Me.TabControl1.Controls.Add(Me.TabPage3)
-        Me.TabControl1.Controls.Add(Me.TabPage4)
-        Me.TabControl1.Controls.Add(Me.TabPage10)
-        Me.TabControl1.Location = New System.Drawing.Point(12, 13)
-        Me.TabControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.TabControl1.Name = "TabControl1"
-        Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(371, 406)
-        Me.TabControl1.TabIndex = 0
-        '
-        'StatusStrip1
-        '
-        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.ToolStripProgressBar1})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 423)
-        Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(395, 22)
-        Me.StatusStrip1.TabIndex = 1
-        Me.StatusStrip1.Text = "StatusStrip1"
-        '
-        'ToolStripStatusLabel1
-        '
-        Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(73, 17)
-        Me.ToolStripStatusLabel1.Text = "Informações"
-        '
-        'ToolStripProgressBar1
-        '
-        Me.ToolStripProgressBar1.Name = "ToolStripProgressBar1"
-        Me.ToolStripProgressBar1.Size = New System.Drawing.Size(100, 16)
         '
         'Button7
         '
@@ -671,9 +601,24 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.RichTextBox4.Location = New System.Drawing.Point(87, 6)
         Me.RichTextBox4.Name = "RichTextBox4"
-        Me.RichTextBox4.Size = New System.Drawing.Size(250, 322)
+        Me.RichTextBox4.Size = New System.Drawing.Size(329, 459)
         Me.RichTextBox4.TabIndex = 10
         Me.RichTextBox4.Text = ""
+        '
+        'TabPage8
+        '
+        Me.TabPage8.Controls.Add(Me.Button11)
+        Me.TabPage8.Controls.Add(Me.Button12)
+        Me.TabPage8.Controls.Add(Me.Button13)
+        Me.TabPage8.Controls.Add(Me.Button14)
+        Me.TabPage8.Controls.Add(Me.RichTextBox5)
+        Me.TabPage8.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage8.Name = "TabPage8"
+        Me.TabPage8.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage8.Size = New System.Drawing.Size(422, 447)
+        Me.TabPage8.TabIndex = 3
+        Me.TabPage8.Text = "Fila 4"
+        Me.TabPage8.UseVisualStyleBackColor = True
         '
         'Button11
         '
@@ -718,9 +663,24 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.RichTextBox5.Location = New System.Drawing.Point(87, 6)
         Me.RichTextBox5.Name = "RichTextBox5"
-        Me.RichTextBox5.Size = New System.Drawing.Size(250, 322)
+        Me.RichTextBox5.Size = New System.Drawing.Size(329, 459)
         Me.RichTextBox5.TabIndex = 10
         Me.RichTextBox5.Text = ""
+        '
+        'TabPage9
+        '
+        Me.TabPage9.Controls.Add(Me.Button15)
+        Me.TabPage9.Controls.Add(Me.Button25)
+        Me.TabPage9.Controls.Add(Me.Button26)
+        Me.TabPage9.Controls.Add(Me.Button27)
+        Me.TabPage9.Controls.Add(Me.RichTextBox6)
+        Me.TabPage9.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage9.Name = "TabPage9"
+        Me.TabPage9.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage9.Size = New System.Drawing.Size(422, 447)
+        Me.TabPage9.TabIndex = 4
+        Me.TabPage9.Text = "Fila 5"
+        Me.TabPage9.UseVisualStyleBackColor = True
         '
         'Button15
         '
@@ -765,25 +725,85 @@ Partial Class Form1
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.RichTextBox6.Location = New System.Drawing.Point(87, 6)
         Me.RichTextBox6.Name = "RichTextBox6"
-        Me.RichTextBox6.Size = New System.Drawing.Size(250, 322)
+        Me.RichTextBox6.Size = New System.Drawing.Size(329, 459)
         Me.RichTextBox6.TabIndex = 10
         Me.RichTextBox6.Text = ""
+        '
+        'TabPage1
+        '
+        Me.TabPage1.Controls.Add(Me.RichTextBox1)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TabPage1.Name = "TabPage1"
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TabPage1.Size = New System.Drawing.Size(442, 490)
+        Me.TabPage1.TabIndex = 0
+        Me.TabPage1.Text = "Sobre"
+        Me.TabPage1.UseVisualStyleBackColor = True
+        '
+        'RichTextBox1
+        '
+        Me.RichTextBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.RichTextBox1.Location = New System.Drawing.Point(6, 7)
+        Me.RichTextBox1.Name = "RichTextBox1"
+        Me.RichTextBox1.Size = New System.Drawing.Size(430, 476)
+        Me.RichTextBox1.TabIndex = 0
+        Me.RichTextBox1.Text = resources.GetString("RichTextBox1.Text")
+        '
+        'TabControl1
+        '
+        Me.TabControl1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TabControl1.Controls.Add(Me.TabPage1)
+        Me.TabControl1.Controls.Add(Me.TabPage2)
+        Me.TabControl1.Controls.Add(Me.TabPage3)
+        Me.TabControl1.Controls.Add(Me.TabPage4)
+        Me.TabControl1.Controls.Add(Me.TabPage10)
+        Me.TabControl1.Location = New System.Drawing.Point(12, 13)
+        Me.TabControl1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TabControl1.Name = "TabControl1"
+        Me.TabControl1.SelectedIndex = 0
+        Me.TabControl1.Size = New System.Drawing.Size(450, 519)
+        Me.TabControl1.TabIndex = 0
         '
         'TabPage10
         '
         Me.TabPage10.Location = New System.Drawing.Point(4, 25)
         Me.TabPage10.Name = "TabPage10"
         Me.TabPage10.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage10.Size = New System.Drawing.Size(363, 377)
+        Me.TabPage10.Size = New System.Drawing.Size(442, 490)
         Me.TabPage10.TabIndex = 4
         Me.TabPage10.Text = "Gráficos"
         Me.TabPage10.UseVisualStyleBackColor = True
+        '
+        'StatusStrip1
+        '
+        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripProgressBar1, Me.ToolStripStatusLabel1})
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 536)
+        Me.StatusStrip1.Name = "StatusStrip1"
+        Me.StatusStrip1.Size = New System.Drawing.Size(474, 22)
+        Me.StatusStrip1.TabIndex = 1
+        Me.StatusStrip1.Text = "StatusStrip1"
+        '
+        'ToolStripProgressBar1
+        '
+        Me.ToolStripProgressBar1.Name = "ToolStripProgressBar1"
+        Me.ToolStripProgressBar1.Size = New System.Drawing.Size(100, 16)
+        '
+        'ToolStripStatusLabel1
+        '
+        Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(73, 17)
+        Me.ToolStripStatusLabel1.Text = "Informações"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(395, 445)
+        Me.ClientSize = New System.Drawing.Size(474, 558)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.TabControl1)
         Me.Font = New System.Drawing.Font("Myriad Pro", 9.749999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -791,7 +811,7 @@ Partial Class Form1
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Algoritmos de Escalonamento - www.edinfo.com.br"
+        Me.Text = "Algoritmos de Escalonamento"
         Me.TabPage4.ResumeLayout(False)
         Me.GroupBox10.ResumeLayout(False)
         Me.GroupBox9.ResumeLayout(False)

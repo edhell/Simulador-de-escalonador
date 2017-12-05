@@ -1,0 +1,11 @@
+C:\Users\Eduardo\Documents\Visual Studio 2017\Projects\Algoritmos de Escalonamento\Algoritmos de Escalonamento\bin\Release\Algoritmos de Escalonamento.exe.config
+C:\Users\Eduardo\Documents\Visual Studio 2017\Projects\Algoritmos de Escalonamento\Algoritmos de Escalonamento\bin\Release\Algoritmos de Escalonamento.exe
+C:\Users\Eduardo\Documents\Visual Studio 2017\Projects\Algoritmos de Escalonamento\Algoritmos de Escalonamento\bin\Release\Algoritmos de Escalonamento.pdb
+C:\Users\Eduardo\Documents\Visual Studio 2017\Projects\Algoritmos de Escalonamento\Algoritmos de Escalonamento\bin\Release\Algoritmos de Escalonamento.xml
+C:\Users\Eduardo\Documents\Visual Studio 2017\Projects\Algoritmos de Escalonamento\Algoritmos de Escalonamento\obj\Release\Algoritmos_de_Escalonamento.Form1.resources
+C:\Users\Eduardo\Documents\Visual Studio 2017\Projects\Algoritmos de Escalonamento\Algoritmos de Escalonamento\obj\Release\Algoritmos_de_Escalonamento.Resources.resources
+C:\Users\Eduardo\Documents\Visual Studio 2017\Projects\Algoritmos de Escalonamento\Algoritmos de Escalonamento\obj\Release\Algoritmos de Escalonamento.vbproj.GenerateResource.Cache
+C:\Users\Eduardo\Documents\Visual Studio 2017\Projects\Algoritmos de Escalonamento\Algoritmos de Escalonamento\obj\Release\Algoritmos de Escalonamento.vbproj.CoreCompileInputs.cache
+C:\Users\Eduardo\Documents\Visual Studio 2017\Projects\Algoritmos de Escalonamento\Algoritmos de Escalonamento\obj\Release\Algoritmos de Escalonamento.exe
+C:\Users\Eduardo\Documents\Visual Studio 2017\Projects\Algoritmos de Escalonamento\Algoritmos de Escalonamento\obj\Release\Algoritmos de Escalonamento.xml
+C:\Users\Eduardo\Documents\Visual Studio 2017\Projects\Algoritmos de Escalonamento\Algoritmos de Escalonamento\obj\Release\Algoritmos de Escalonamento.pdb

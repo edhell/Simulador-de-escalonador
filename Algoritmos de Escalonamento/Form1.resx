@@ -117,11 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="RichTextBox1.Text" xml:space="preserve">
+    <value>Tabalho de Sistemas Operacioais - UNISC
+Eduardo Dumke -www.edinfo.com.br - 2017
+
+Teste de algoritmos de escalonamento de CPU
+[x] 5 "filas" de entradas
+[x] Filas podem ser adicionadas via arquivo externo
+[x] Gerar fila aleatóriamente
+[x] Teste de conteúdo de fila
+[x] Cálculo de tempo decorrido
+[x] Algoritmo FIFO:
+	[x] Até 64 Threads
+	[x] Custo de troca de contexto
+	[x] Tempo médio de espera (waiting time)
+	[x] Tempo médio de CPU (turnround time)
+	[x] Tempo de CPU livre (em u.t.)
+	[x] Aproveitamento de CPU (em %)
+[ ] Algoritmo SJF / SRT
+[ ] SJF/ SRT Preemptivo
+[ ] Prioridade
+[ ] RR
+[ ] Loteria</value>
+  </data>
   <metadata name="StatusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
+    <value>16, 7</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>55</value>
+    <value>39</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
